@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador / Desencriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Encriptador / Desencriptador de Texto</h2>
+        <textarea id="textInput" class="input-field"
+            placeholder="Introduce el texto a encriptar o desencriptar"></textarea>
+
+        <select id="operationSelect" class="operation-select">
+            <option value="encrypt">Encriptar</option>
+            <option value="decrypt">Desencriptar</option>
+        </select>
+
+        <button id="submitBtn" class="button">Aplicar</button>
+        <button id="copyBtn" class="button">Copiar</button>
+
+        <textarea id="outputText" class="input-field" readonly></textarea>
+    </div>
+
+    <footer>
+        <p>Desarrollado por <a href="https://www.linkedin.com/in/1-dennis-padilla">Dennis P.</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
